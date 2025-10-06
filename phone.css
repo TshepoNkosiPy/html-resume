@@ -1,0 +1,60 @@
+@media (max-width: 680px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    html{
+        background-color: rgb(13, 72, 80);
+        height: 100dvh;
+        width: 100dvw;
+        font-family: "Montserrat", sans-serif;
+        font-weight: normal;
+        font-style: normal;
+    }
+    h2{
+        padding: 10px;
+    }
+    .header{
+        height: 10dvh;
+        color: white;
+        text-align: center;
+    }
+    .main{
+        background-color: rgb(250, 191, 114);
+        height: 70dvh;
+        color: rgb(4, 59, 66);
+        font-size: 0.5rem;
+    }
+    .main > img{
+        width: 50%;
+        float: left;
+        transition: border-radius 0.125s ease-in-out;
+    }
+
+    .main > img:hover{
+        border-radius: 30px;
+    }
+    .footer{
+        height: 10dvh;
+        padding: 5dvh 0;
+        text-align: center;
+    }
+    .footer > a{
+        text-decoration: none;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-size: 1.5rem;
+        padding: 10px 15px;
+        background-color: rgb(201, 122, 20);
+        transition: border-radius 0.125s ease-in-out;
+    }
+
+    .footer > a:hover{
+        border-radius: 30px;
+    }
+    #spt{
+        clear:both;
+    }
+}

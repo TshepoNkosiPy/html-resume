@@ -1,0 +1,28 @@
+@media (min-width: 681px){
+    *{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(57, 14, 211);
+        color: white;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: normal;
+        font-style: normal;
+    }
+    .header{
+        height: 10dvh;
+        text-align: center;
+    }
+    .main{
+        height: 70dvh;
+        background-color: aliceblue;
+    }
+    .footer{
+        height: 20dvh;
+        text-align: center;
+    }
+    .footer > a {
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+}
