@@ -29,6 +29,7 @@
         width: 50%;
         float: left;
         transition: border-radius 0.125s ease-in-out;
+        padding: 10px;
     }
 
     .main > img:hover{
