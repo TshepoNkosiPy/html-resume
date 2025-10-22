@@ -19,6 +19,9 @@
         color: white;
         text-align: center;
     }
+   li{
+      list-style: none;
+   }
     .main{
         background-color: rgb(250, 191, 114);
         height: 70dvh;
@@ -60,3 +63,4 @@
         text-align: center;
     }
 }
+
