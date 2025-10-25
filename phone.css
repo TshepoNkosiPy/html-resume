@@ -1,66 +1,59 @@
-@media (max-width: 680px){
+@media (max-width: 500px){
     *{
-        margin: 0;
         padding: 0;
+        margin: 0;
     }
     html{
-        background-color: rgb(13, 72, 80);
-        height: 100dvh;
-        width: 100dvw;
-        font-family: "Montserrat", sans-serif;
-        font-weight: normal;
-        font-style: normal;
+
     }
-    h2{
-        padding: 10px;
+    .container{
+        display: flex;
+        flex-direction: column;
     }
     .header{
         height: 10dvh;
+        background-color: black;
         color: white;
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-   li{
-      list-style: none;
-   }
-    .main{
-        background-color: rgb(250, 191, 114);
+    .item1{
+        height: 90dvh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about, .certs, .projects{
+        height: 25dvh;
+        background-color: rgba(160, 157, 157, 0.062);
+        width: 50dvw;
+        margin: 2.5dvh 2.5dvw;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .item2{
+        height:80dvh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img{
         height: 70dvh;
-        color: rgb(4, 59, 66);
-        font-size: 0.6rem;
-    }
-    .main > img{
-        width: 50%;
-        float: left;
-        transition: border-radius 0.125s ease-in-out;
-        padding: 10px;
-    }
-
-    .main > img:hover{
-        border-radius: 30px;
+        width: 90dvw;
+        border-radius: 10px;
     }
     .footer{
-        height: 10dvh;
-        padding: 5dvh 0;
-        text-align: center;
+        height: 20dvh;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    .footer > a{
+    a{
         text-decoration: none;
-        color: white;
-        font-family: "Montserrat", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: normal;
-        font-size: 1.5rem;
-        padding: 10px 15px;
-        background-color: rgb(201, 122, 20);
-        transition: border-radius 0.125s ease-in-out;
-    }
-
-    .footer > a:hover{
-        border-radius: 30px;
-    }
-    #spt{
-        clear:both;
-        text-align: center;
+        color: black;
     }
 }
-
