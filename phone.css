@@ -4,8 +4,6 @@
         margin: 0;
     }
     html{
-        height: 100dvh;
-        width: 100dvw;
     }
     .container{
         display: flex;
