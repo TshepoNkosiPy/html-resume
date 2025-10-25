@@ -40,9 +40,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: rgba(160, 157, 157, 0.062);
     }
     img{
-        width: 60dvw;
+        width: 65dvw;
         border-radius: 10px;
     }
     .footer{
