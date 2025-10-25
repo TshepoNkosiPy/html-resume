@@ -4,8 +4,7 @@
         margin: 0;
     }
     html{
-        height: 100dvh;
-        width: 100dvw;
+
     }
     .container{
         display: flex;
@@ -36,13 +35,14 @@
         justify-content: center;
     }
     .item2{
-        height:80dvh;
+        height: 80dvh;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     img{
-        width: 90dvw;
+        height: 60dvh;
+        width: auto;
         border-radius: 10px;
     }
     .footer{
