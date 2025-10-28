@@ -3,59 +3,83 @@
         padding: 0;
         margin: 0;
     }
-    html{
-    }
     .container{        
         display: flex;
         flex-direction: column;
+        background-color: rgb(6, 62, 107);
+        font-family: "Lobster", sans-serif;
+        padding-top: 20px;
+    }
+    @keyframes line-movement {
+        50%{
+            border: 0.5px solid blue;
+        }
     }
     .header{
-        height: 10dvh;
-        background-color: black;
+        animation: line-movement infinite 3s ease-in-out;
+        height: 15dvh;
+        margin-bottom: 2.5dvh;
         color: white;
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
+        gap: 10px;
         align-items: center;
-        font-family: "Lobster", sans-serif;
+        padding: 10px;
+        font-size: 1.5rem;
+        border: 0.5px solid rgb(50, 122, 255);
+        width: 50dvw;
+        border-radius: 80px;
+        align-self: center;
+        transition: width 0.15s ease-in-out;
     }
+    .header:hover{
+        width: 60dvw;
+    }
+    .header > img{
+        height: 12dvh;
+        width: auto;
+        border-radius: 50%;
+    }
+    
     .item1{
         height: 90dvh;
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-family: "Lobster", sans-serif;
+        color: white;
     }
     .about, .certs, .projects{
-        height: 25dvh;
-        background-color: rgba(160, 157, 157, 0.062);
+        height: 20dvh;
+        background-color: rgb(13, 45, 63);
         width: 50dvw;
         margin: 2.5dvh 2.5dvw;
-        border-radius: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
+        border-radius: 10px;
     }
     .item2{
         height: 80dvh;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: rgba(160, 157, 157, 0.062);
+        background-color: rgb(6, 62, 107);
     }
     img{
         width: 65dvw;
-        border-radius: 10px;
     }
+    
     .footer{
         height: 20dvh;
         background-color: black;
         display: flex;
         justify-content: center;
         align-items: center;
+        border-radius: 40px 40px 0 0;
     }
     a{
         text-decoration: none;
         color: white;
-        font-family: "Lobster", sans-serif;
+        font-size: 1.2rem;
     }
 }
